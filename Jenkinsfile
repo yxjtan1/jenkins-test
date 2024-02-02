@@ -17,7 +17,7 @@ pipeline {
             steps {
                 // Build your application (e.g., compile code, generate artifacts)
                 echo 'build triggered automaticallu from webhook on commit from local repo'
-                echo 'testing Jenkins Webhook 2'
+                echo 'testing Jenkins Webhook 3'
             }
         }
         
