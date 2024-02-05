@@ -17,7 +17,8 @@ pipeline {
         stage('Build') {
             steps {
                 // Build your application (e.g., compile code, generate artifacts)
-                // Test v1.5
+                // Test v1.7
+                // Pray that this fixed webhook .. 
                 echo 'build triggered automaticallu from webhook on commit from local repo'
                 echo 'testing Jenkins Webhook 3'
             }
