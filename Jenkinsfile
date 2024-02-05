@@ -8,6 +8,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout your source code from the version control repository
+                // test 3
                 // (e.g., Git)
                 checkout scm
             }
